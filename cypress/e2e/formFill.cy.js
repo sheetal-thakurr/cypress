@@ -2,13 +2,8 @@
 
  describe('fill form', () => {
 
-    before(() => {
-        Cypress.on("uncaught:exception", (err, runnable) => {
-            return false;
-        });
-    });
     it('fill a form with cypress', () => {
-        cy.log('----------------------11')
+        cy.log('----------------------6')
         const name = 'Sheetal';
         const email = 'sheetal@gmail.com';
         const comment = 'hello everyone';
